@@ -1,0 +1,31 @@
+MXXYY+
+PATXYY+
+RBYY+
+RASXV+
+FRMIN+
+PARAIN+
+DI_PARA+
+D1_DATAY+
+D2_DATAY+
+DATINY+
+NORXXX+
+\SUB\NORV+
+\SUB\RAST+
+\SUB\R\RA0IV+
+\SUB\R\RA1IV+
+\SUB\IO\VEMPRY+
+\SUB\IO\VIPRI+
+\SUB\IO\MATPRI+
+\SUB\IO\MATPRIN
+MXXYY.EXE
+
+llibce.lib
+
+***If    %.for  %.obj
+***Then  c:\f\fl.exe  "/AL /c /FPi /Ox /Fo% %.for"
+\\***Then  c:\f\fl.exe  "/AL /c /FPi /Zi /Od /Fo% %.for"
+***Error d:\me\me.exe  *
+
+***Final c:\f\link.exe "/NOE /E @%;" *
+\***Final d:\msf\link.exe "@%;" *
+\***Final d:\msf\link.exe "/CO @%;" *
